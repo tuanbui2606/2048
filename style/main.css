@@ -3,9 +3,10 @@ html, body {
   margin: 0;
   padding: 0;
   background: white;
-  color: red;
+  background: url('../img/ngu.jpg');
+  color: #090808;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 23px; }
 
 body {
   margin: 80px 0; }
@@ -20,7 +21,8 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: middle; }
+  float: left;
+  color: red; }
 
 @-webkit-keyframes move-up {
   0% {
@@ -101,7 +103,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #090808;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -314,38 +316,32 @@ hr {
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
-    background: url('../img/pikachu1.png');
+    color: red;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
-    background: url('../img/pikachu2.jpg');
+    color: darksalmon; 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: blue;
-    background: #f2b179;
-    background: url('../img/pikachu3.jpg'); }
+    background: #f2b179; }
   .tile.tile-16 .tile-inner {
     color: black;
-    background: #f59563;
-    background: url('../img/pikachu4.jpg'); }
+    background: #f59563; }
   .tile.tile-32 .tile-inner {
     color: purple;
-    background: #f67c5f;
-    background: url('../img/images5.jpg'); }
+    background: #f67c5f;}
   .tile.tile-64 .tile-inner {
     color: rgb(141, 16, 46);
-    background: #f65e3b;
-    background: url('../img/images6.jpg'); }
+    background: #f65e3b; }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    color: brown;
+    background: #edcf72; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
+    color: rgb(162, 70, 70);
     background: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
@@ -353,7 +349,7 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
+    color: rgb(87, 199, 114);
     background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
@@ -370,7 +366,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
     color: ;
-    background: green;
+    background:;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 50px; }
     @media screen and (max-width: 520px) {
